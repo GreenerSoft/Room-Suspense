@@ -1,0 +1,35 @@
+{
+	"name": "room-suspense",
+	"version": "1.0.0",
+	"type": "module",
+	"browser": "room-suspense.min.js",
+	"jsdelivr": "room-suspense.min.js",
+	"unpkg": "room-suspense.min.js",
+	"files": [
+	  "room-suspense.js",
+	  "room-suspense.min.js",
+	  "room-suspense-nm.js",
+	  "room-suspense-nm.min.js"
+	],
+	"scripts": {
+	  "minify": "terser room-suspense.js --ecma 2019 --module --comments -c -m -o room-suspense.min.js ; terser room-suspense-nm.js --ecma 2019 --comments -c -m -o room-suspense-nm.min.js"
+	},
+	"repository": {
+	  "type": "git",
+	  "url": "git+https://github.com/GreenerSoft/Room-Suspense.git"
+	},
+	"bugs": {
+	  "url": "https://github.com/GreenerSoft/Room-Suspense/issues"
+	},
+	"keywords": [
+	  "ESM",
+	  "JavaScript",
+	  "Reactive",
+	  "Async"
+	],
+	"author": "GreenerSoft",
+	"license": "MIT",
+	"description": "Un composant pour les interfaces utilisateurs asynchrones.",
+	"homepage": "https://roomjs.fr"
+  }
+  
